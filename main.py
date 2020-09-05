@@ -4,20 +4,13 @@ from PIL import Image, ImageDraw, ImageFont
 bhn = {
     'gambar':{1:{'nama':'bahan_1.jpg', 'baris': 25, 'perEnter':92, 'samping':340, 'atas':540}, #succes
               2:{'nama':'bahan_2(1).jpg', 'baris': 25, 'perEnter':104, 'samping':338, 'atas':570}, #succes
-              #3:{'nama':'bahan_3(duo).jpg', 'baris': 25, 'perEnter':90, 'samping':340, 'atas':540, 'tam':2},
-              #4:{'nama':'bahan_4(duo).jpg', 'baris': 31, 'perEnter':90, 'samping':340, 'atas':540, 'tam':2},
-              3:{'nama':'bahan_5.jpg', 'baris': 25, 'perEnter':103, 'samping':305, 'atas':600}, #succes
-              4:{'nama':'bahan_6.jpg', 'baris': 31, 'perEnter':92, 'samping':280, 'atas':505}, #succes
-              5:{'nama':'bahan_7(6).jpg', 'baris': 31, 'perEnter':94, 'samping':315, 'atas':515}, #succes
-              6:{'nama':'bahan_8.jpg', 'baris': 31, 'perEnter':95, 'samping':325, 'atas':555}, #succes
-              7:{'nama':'bahan_9.jpg', 'baris': 25, 'perEnter':102, 'samping':340, 'atas':515}, #succes
-              8:{'nama':'bahan_10(9).jpg', 'baris': 25, 'perEnter':106, 'samping':300, 'atas':510} #succes
+              3:{'nama':'bahan_3.jpg', 'baris': 31, 'perEnter':92, 'samping':280, 'atas':505}, #succes
+              4:{'nama':'bahan_4(3).jpg', 'baris': 31, 'perEnter':94, 'samping':315, 'atas':515}, #succes
+              5:{'nama':'bahan_5.jpg', 'baris': 31, 'perEnter':95, 'samping':325, 'atas':555}, #succes
             },
     
     'font':{1:{'nama':'font1.ttf', 'ukuran':50, 'warna':(0, 0, 0)},  #succes
-            2:{'nama':'font2.ttf', 'ukuran':70, 'warna':(0, 0, 0)},  #succes
-            3:{'nama':'font3.ttf', 'ukuran':56, 'warna':(0, 0, 0)},  #succes 
-            4:{'nama':'font4.ttf', 'ukuran':55, 'warna':(7, 6, 6)}   #succes
+            2:{'nama':'font2.ttf', 'ukuran':70, 'warna':(7, 6, 6)},  #succes
            }}
 
 #Untuk user memilih Font dan Kertas 
