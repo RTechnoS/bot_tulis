@@ -67,32 +67,8 @@ def proccesText(tex):
     return kirim
 
 
-#Tempat user memasukkan teks
-textUser = """Nama : Rusman Tobyakta Siregar
-Kelas : XII TKJ 1
-dsadasdd
-Berikut penerapan sila ke-1 dalam kehidupan sehari – harinya :
-    1. Percaya serta Takwa kepada Tuhan Yang Maha Esa sesuai dengan agama 
-       serta kepercayaan masing – masing.
-    2. Hormat menghormati dan bekerjasama antara pemeluk agama dan para
-       penganut kepercayaan walaupun berbeda-beda.
-    3. Saling menghormati kebebasan dalam menjalankan ibadah sesuai dengan 
-       agama serta kepercayaan masing – masing..
-       dasdadasdasdasd
-Sila ke 2 adalah “Kemanusiaan Yang Adil Dan Beradab” dimana terkandung 
-            nilai – nilai perikemanusiaan yang harus diperhatikan serta diterapkan 
-                dalam kehidupan sehari – hari karena kita adalah makhluk sosial. 
-1. Pada hal ini adalah sebagai berikut 
-        Sila ke 2 adalah “Kemanusiaan Yang Adil Dan Beradab” dimana terkandung 
-2. nilai – nilai perikemanusiaan yang harus diperhatikan serta diterapkan 
-        dalam kehidupan sehari – hari karena kita adalah makhluk sosial. 
-3. Pada hal ini adalah sebagai berikut 
-perikemanusiaan yang harus diperhatikan serta diterapkan dalam kehidupan 
-sehari – hari karena kita adalah makhluk sosial. Pada hal ini adalah sebagai berikut 
-yang harus diperhatikan serta diterapkan dalam kehidupan sehari – hari karena kita 
-adalah makhluk sosial
-    2. Hormat menghormati dan bekerjasama antara pemeluk agama dan para
-    penganut kepercayaan walaupun berbeda-beda. """
-
+#Membuka file Tulisan.txt tempat tulisan kalian
+with open('Tulisan.txt', 'r') as viewText:
+    textUser = viewText.read()
 proces = proccesText(textUser)
 print(proces)
