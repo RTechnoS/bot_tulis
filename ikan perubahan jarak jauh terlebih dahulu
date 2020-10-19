@@ -1,0 +1,68 @@
+[33mcommit e72f55a2557ad0ef582b5916888e80c4950f671c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Mon Oct 19 11:57:16 2020 +0700
+
+    Merapikan
+
+[33mcommit 7902f4d23845589ee4f4c02f7e3b8da597c5261f[m[33m ([m[1;31mgithub/master[m[33m, [m[1;32mshow[m[33m, [m[1;32mlist[m[33m)[m
+Merge: d59a979 24a17c6
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Mon Oct 19 11:49:33 2020 +0700
+
+    Menambah font dan kertas, otomatis baris baru jika berlebih, perbaikan Bug, Merapikan tampilan
+
+[33mcommit d59a9792501b43d272aeffde6b91594630132929[m
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Mon Oct 19 11:45:00 2020 +0700
+
+    Menambah font dan kertas, otomatis baris baru jika berlebih, perbaikan Bug, Merapikan tampilan
+
+[33mcommit 24a17c6ebd9683d551ed28fa223750b7fe5d2466[m
+Author: rtechs <49034233+RTechnoS@users.noreply.github.com>
+Date:   Sat Sep 5 18:39:30 2020 +0700
+
+    Update README.md
+
+[33mcommit c44c9614f42d144ba8dd4db7ec7df2f6e6e11e68[m
+Merge: 416fd20 55baede
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Sat Sep 5 12:15:07 2020 +0700
+
+    Merge branch 'master' of github.com:RTechnoS/bot_tulis
+
+[33mcommit 416fd203e36088c97963e59b9f1486498e81bbb9[m
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Sat Sep 5 12:14:42 2020 +0700
+
+    hapus beberapa bahan yang untuk private
+
+[33mcommit 55baede20dc0fc8c3daec94aeb5e354f0e59cacd[m
+Author: rtechs <49034233+RTechnoS@users.noreply.github.com>
+Date:   Sat Sep 5 09:58:48 2020 +0700
+
+    Update README.md
+
+[33mcommit 9fe78fbed374e42736531689c709e412c61e50f4[m
+Merge: 9659dba de0c551
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Sat Sep 5 09:56:02 2020 +0700
+
+    Merge branch 'master' of github.com:RTechnoS/bot_tulis
+
+[33mcommit 9659dbaab5d2d309c226e4b3e65149fcdfec28d7[m
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Sat Sep 5 09:52:30 2020 +0700
+
+    mengubah tulisan di file Tulisan.txt
+
+[33mcommit de0c551ce8b74621e2c5d4d9d3420238c436fa6a[m
+Author: rtechs <49034233+RTechnoS@users.noreply.github.com>
+Date:   Sat Sep 5 09:51:26 2020 +0700
+
+    Create README.md
+
+[33mcommit f838f0b0ba7f7347a43a5af8a4d59aac02c04ed7[m
+Author: RTechnoS <rusmantobyaktasiregar@gmail.com>
+Date:   Sat Sep 5 09:36:23 2020 +0700
+
+    first commit
