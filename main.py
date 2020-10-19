@@ -135,7 +135,7 @@ class Fung:
         return kirim
 
 clear() 
-print("\t\tRusman Tobyakta Siregar\n\t\t@rusman_toby")
+print("\n\t\tRusman Tobyakta Siregar\n\t\t@rusman_toby\n")
 
 while True:
     milihK, milihF, nama, kelas = pilih() # Proses memilih kertas, font dan nama
