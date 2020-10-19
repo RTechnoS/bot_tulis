@@ -133,12 +133,9 @@ class Fung:
 
         kirim = {'error':False, 'pesan':f"Jumlah Baris Teks : {jumlahEnter}", 'file':f'{lokasi}'}
         return kirim
-clear() 
-print("""
-\t\tRusman Tobyakta Siregar
-\t\t@rusman_toby
 
-""")
+clear() 
+print("\t\tRusman Tobyakta Siregar\n\t\t@rusman_toby")
 
 while True:
     milihK, milihF, nama, kelas = pilih() # Proses memilih kertas, font dan nama
@@ -154,7 +151,7 @@ while True:
     if prosesPenulisan['error']:
         print("\n=================== Proses Gagal ===================\n")
     else:
-        print("\n================== Proses Succes ===================\n")
+        print("\n================= Proses Berhasil ==================\n")
         print(f"""Succes : {prosesPenulisan['file']}""")
 
     print(prosesPenulisan['pesan'],"\n\n","="*51,"\n")
