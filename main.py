@@ -42,7 +42,7 @@ def pilih():
 
     milihKertas = input('\nPilih kertas : ')
 
-    if milihKertas not in bhn['gambar']:
+    if milihKertas not in str(bhn['gambar']):
         milihKertas = 1
         print('Otomatis diubah ke kertas 1\n')
 
@@ -51,7 +51,7 @@ def pilih():
 
     milihFont = input('\nPilih Font : ')
 
-    if milihFont not in bhn['font']:
+    if milihFont not in str(bhn['font']):
         milihFont = 1
         print('Otomatis diubah ke Font 1\n')
 
