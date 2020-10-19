@@ -12,7 +12,9 @@ Module : Pillow
 --> pilih salah satu kertas
 
 --> pilih salah satu font
+
 --> Masukkan Nama (opsional)
+
 --> Masukkan Kelas (opsional)
 
 * Jika ada error silahkan diulang
@@ -22,9 +24,6 @@ Module : Pillow
 Untuk kertas dan font lebih banyak
 bisa menggunakan BOT telegram saya
 https://t.me/awakmalas_bot
-
-
-5. hasil akan disimpan dengan nama Hasil.txt
 
 
 # Copyright © 2020 Rusman TS
