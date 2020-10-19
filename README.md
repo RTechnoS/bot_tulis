@@ -1,25 +1,20 @@
 # bot_tulis
-
-Module : Pillow, time, os
-=======
-Module : Pillow
+<img width=50% src="Screenshot.png">
+<b>Module : Pillow, time, os</b>
 
 1. git clone https://github.com/RTechnoS/bot_tulis
 2. cd bot_tulis
 4. Edit file Tulisan.txt dengan text tugas kalian
 3. python3 main.py
 
---> pilih salah satu kertas
-
---> pilih salah satu font
-
---> Masukkan Nama (opsional)
-
---> Masukkan Kelas (opsional)
+--> pilih salah satu kertas</br>
+--> pilih salah satu font</br>
+--> Masukkan Nama (opsional)</br>
+--> Masukkan Kelas (opsional)</br>
 
 * Jika ada error silahkan diulang
 
-5. Proses Berhasil disimpan
+5. Proses Berhasil disimpan di folder hasil/
 
 Untuk kertas dan font lebih banyak
 bisa menggunakan BOT telegram saya
