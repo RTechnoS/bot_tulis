@@ -41,8 +41,8 @@ def pilih():
         print(gam,'.',bhn['gambar'][gam]['nama'],'berjumlah',bhn['gambar'][gam]['baris'],'baris')
 
     milihKertas = input('\nPilih kertas : ')
-
-    if milihKertas not in str(bhn['gambar']):
+    
+    if milihKertas not in str(bhn['gambar'].keys()) or milihKertas == '':
         milihKertas = 1
         print('Otomatis diubah ke kertas 1\n')
 
@@ -51,7 +51,7 @@ def pilih():
 
     milihFont = input('\nPilih Font : ')
 
-    if milihFont not in str(bhn['font']):
+    if milihFont not in str(bhn['font'].keys()) or milihFont == '':
         milihFont = 1
         print('Otomatis diubah ke Font 1\n')
 
