@@ -140,7 +140,7 @@ print("\n\t\tRusman Tobyakta Siregar\n\t\t@rusman_toby\n")
 while True:
     milihK, milihF, nama, kelas = pilih() # Proses memilih kertas, font dan nama
 
-    with open('Tulisan.txt', 'r') as viewText: #Membaca File Tulisan.txt 
+    with open('Tulisan.txt', 'r', encoding='utf-8') as viewText: #Membaca File Tulisan.txt 
         textUser = viewText.read()
 
     prs = Fung(textUser, milihK, milihF, nama, kelas)
