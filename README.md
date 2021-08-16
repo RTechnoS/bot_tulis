@@ -1,7 +1,7 @@
 # bot_tulis
 <img width=50% src="media/screenshot_GUI.png">
 <img width=50% src="media/screenshot_CMD.png">
-<b>Module : Pillow, time, os</b>
+<b>Module : Pillow</b>
 
 1. git clone https://github.com/RTechnoS/bot_tulis
 2. cd bot_tulis
