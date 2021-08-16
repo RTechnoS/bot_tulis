@@ -83,6 +83,8 @@ class Tulis:
 			elif data == 'kelas':
 				self.d1.text((sampingInfo,atasInfo), 'Kelas : '+str(self.info['kelas']), font=self.myfont, fill = self.color)
 				atasInfo += self.rawKertas['info'][2]
+			elif data == 'tanggal':
+				self.d1.text((self.rawKertas['tgl'][1],self.rawKertas['tgl'][0]), str(self.info['tanggal']), font=self.myfont, fill = self.color)
 			else:
 				self.d1.text((sampingInfo,atasInfo), (data+' : '+self.info[data]), font=self.myfont, fill = self.color)
 				atasInfo += self.rawKertas['info'][2]
