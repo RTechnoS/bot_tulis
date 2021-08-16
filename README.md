@@ -1,20 +1,27 @@
 # bot_tulis
-<img width=50% src="Screenshot.png">
+<img width=50% src="media/screenshot_GUI.png">
+<img width=50% src="media/screenshot_CMD.png">
 <b>Module : Pillow, time, os</b>
 
 1. git clone https://github.com/RTechnoS/bot_tulis
 2. cd bot_tulis
-4. Edit file Tulisan.txt dengan text tugas kalian
-3. python3 main.py
+4. Edit file tugas.txt dengan text tugas kalian
+
+Versi GUI :
+1. python3 main.py
+2. Setting sesuai keinginan
+3. Hasil disimpan di folder hasil/
+
+Versi CMD :
+1. python3 cmd.py
 
 --> pilih salah satu kertas</br>
 --> pilih salah satu font</br>
 --> Masukkan Nama (opsional)</br>
 --> Masukkan Kelas (opsional)</br>
 
-* Jika ada error silahkan diulang
+2. Proses Berhasil disimpan di folder hasil/
 
-5. Proses Berhasil disimpan di folder hasil/
 
 Untuk kertas dan font lebih banyak
 bisa menggunakan BOT telegram saya

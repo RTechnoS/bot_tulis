@@ -4,8 +4,15 @@ import datetime
 from PIL import Image, ImageTk
 import pemalas
 
+# =============== RTechS ==============
+# =             Script By             = 
+# =      Rusman Tobyakta Siregar      =
+# =            @rusman_toby           =
+# =       rusmants.public@pm.me       =
+# =====================================
 
-bhn = pemalas.bhn
+
+bhn = pemalas.bhn #mengambil list kertas dan font dari pemalas.py
 
 class Dashboard:
 	def __init__(self, master):

@@ -21,7 +21,7 @@ def clear(): # untuk membersihkan/menghapus tampilan terminal/cmd
 
 def pilih():
     for gam in bhn['gambar']:  # Menampilkan list kertas
-        print(gam,'.',bhn['gambar'][gam]['nama'],'berjumlah',bhn['gambar'][gam]['baris'],'baris')
+        print(gam,'.',bhn['gambar'][gam]['nama'],bhn['gambar'][gam]['baris'],'baris')
 
     milihKertas = input('\nPilih kertas : ')
     
@@ -30,7 +30,7 @@ def pilih():
         print('Otomatis diubah ke kertas 1\n')
 
     for fon in bhn['font']: # Menampilkan list font
-        print(fon,'.',bhn['font'][fon]['nama'],'Ukuran :',bhn['font'][fon]['ukuran'])
+        print(fon,'.',bhn['font'][fon]['nama'])
 
     milihFont = input('\nPilih Font : ')
 
@@ -54,7 +54,7 @@ def pilih():
 
 
 clear() 
-print("\n\t\tRusman Tobyakta Siregar\n\t\t@rusman_toby\n")
+print("\t\t\t=============== RTechS ==============\n\t\t\t=      Rusman Tobyakta Siregar      =\n\t\t\t=            @rusman_toby           =\n\t\t\t=       rusmants.public@pm.me       =\n\t\t\t=====================================\n\n")
 
 while True:
     milihK, milihF, info = pilih() 
@@ -68,9 +68,9 @@ while True:
     clear()
 
     if procces['error']:
-        print("\n=================== Failed ===================")
+        print("\n\033[1;37;41mFailed\033[0m")
     else:
-        print("\n================= Success ==================")
+        print("\n\033[1;37;42mSuccess\033[0m")
         print(f"""File : {' | '.join(procces['file'])}""")
 
     print(procces['pesan'],"\n\n","="*51,"\n")
