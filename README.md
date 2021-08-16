@@ -5,6 +5,7 @@
 
 1. git clone https://github.com/RTechnoS/bot_tulis
 2. cd bot_tulis
+3. pip install -r requirements.txt
 4. Edit file tugas.txt dengan text tugas kalian
 
 Versi GUI :
