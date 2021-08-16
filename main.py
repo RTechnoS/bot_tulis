@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-import datetime
-from PIL import Image, ImageTk
+import time
 import pemalas
 
 # =============== RTechS ==============
@@ -23,8 +22,7 @@ class Dashboard:
 		self.win.iconphoto(True, p1)
 		self.win.resizable(False, False)
 
-		self.waktu = datetime.datetime.now()
-		self.hari = self.waktu.strftime('%Y-%m-%d')
+		self.hari = time.strftime('%Y-%m-%d')
 
 		self.frm_utama = tk.Frame(self.win)
 		self.frm_utama.pack(fill=tk.BOTH, expand=True, padx=11, pady=11)
@@ -100,7 +98,6 @@ class Dashboard:
 		tk.Radiobutton(frm_option, text="Merah", variable=self.warna, value=1).grid(row=2, column=2,sticky="E")
 		tk.Radiobutton(frm_option, text="Biru", variable=self.warna, value=2).grid(row=2, column=3,sticky="E")
 
-		tk.Button(frm_option, text='Preview', command=self.filter_preview).grid(row=3, column=0)
 
 	def def_frm_detail(self):
 		frm_detail = tk.Frame(self.frm_atas)
@@ -196,20 +193,8 @@ class Dashboard:
 		isi = open('./tugas.txt', 'r').read()
 		self.kerjakan(opt, info, isi)
 
-	def filter_preview(self):
-		isi = """1. Ini adalah Contoh kertas dan Font
-   - @rusman_toby
-
-2. Ini adalah Contoh kertas dan Font"""
-
-		listTinta = ((42, 43, 43), (168, 9, 12), (6, 14, 118))
-		opt = [int(self.kertas.get().strip('Kertas ')),int(self.font.get().strip('Font ')), listTinta[self.warna.get()]]
-		p = self.kerjakan(opt, {}, isi)
-
-
-
 	def kerjakan(self, opt, info, isi):
-		jam = datetime.datetime.now().strftime('%H-%M-%S')
+		jam = time.strftime('%y%m%d-%H%M%S')
 		
 		p = pemalas.Tulis(isi, opt[0], opt[1], opt[2], info, f'hasil/{jam}')
 		hasil = p.Menulis()
