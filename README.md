@@ -36,3 +36,4 @@ Email : rusmants.public@pm.me
 
 
 [![Visits Badge](https://badges.pufler.dev/visits/RTechnoS/bot_tulis?style=for-the-badge&color=blue)](https://github.com/RTechnoS/RTechnoS)
+<script type='text/javascript' src='https://cdn.trakteer.id/js/embed/trbtn.min.js'></script><script type='text/javascript'>(function(){var trbtnId=trbtn.init('Dukung Saya di Trakteer','#be1e2d','https://trakteer.id/rtechs','https://cdn.trakteer.id/images/embed/trbtn-icon.png','40');trbtn.draw(trbtnId);})();</script>
