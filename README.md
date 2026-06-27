@@ -220,7 +220,7 @@ GNU General Public License v3.0 - lihat [LICENSE](LICENSE) untuk detail.
 
 [![GitHub](https://img.shields.io/badge/GitHub-rtechnos-181717?style=for-the-badge&logo=github)](https://github.com/rtechnos)
 [![Instagram](https://img.shields.io/badge/Instagram-rusman__toby-E4405F?style=for-the-badge&logo=instagram)](https://instagram.com/rusman_toby)
-[![Email](https://img.shields.io/badge/Email-rusmants.public@pm.me-D14836?style=for-the-badge&logo=mail)](mailto:rusmants.public@pm.me)
+[![Email](https://img.shields.io/badge/Email-hyman0@duck.com-D14836?style=for-the-badge&logo=mail)](mailto:hyman0@duck.com)
 
 </div>
 
